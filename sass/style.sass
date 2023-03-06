@@ -1,0 +1,37 @@
+@import _defaults
+
+body
+    font-family: sans-serif
+    
+.container
+    max-width: 700px
+    margin: 0 auto
+
+.faq
+    &-header 
+        text-align: center
+        font-weight: 400
+        margin-top: 30px
+    &-question
+        position: relative
+        margin-top: 20px
+        padding: 25px
+        background-color: #eeeeee
+        cursor: pointer
+        &__sign
+            position: absolute
+            top: 50%
+            right: 20px
+            transform: translateY(-50%)
+            font-size: 1.2em
+    &-answer
+        display: none
+        margin-top: 20px
+        margin-left: 27px
+        &__active
+            display: block
+        &__accent
+            color: #29b6ce
+            &:hover
+                color: darkviolet
+                text-decoration: underline
