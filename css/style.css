@@ -87,4 +87,7 @@ body {
 .faq-answer__accent:hover {
   color: darkviolet;
   text-decoration: underline;
+}
+.faq-answer__text + .faq-answer__text {
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
