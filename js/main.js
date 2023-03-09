@@ -7,11 +7,11 @@ tabQuestion.forEach(el => {
         
         if (!check) {
             el.nextElementSibling.classList.add('faq-answer__active');
-            el.lastElementChild.innerHTML = '-';
+            el.lastElementChild.innerText = '-';
             el.style.backgroundColor = '#dddddd';
         } else {
             el.nextElementSibling.classList.remove('faq-answer__active');
-            el.lastElementChild.innerHTML = '+';
+            el.lastElementChild.innerText = '+';
             el.style.backgroundColor = null;
         }
     });
